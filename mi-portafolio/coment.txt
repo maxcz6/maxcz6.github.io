@@ -1,0 +1,16 @@
+mi-portafolio/
+│
+├── index.html           # Página principal
+├── about.html           # Sobre mí
+├── projects.html        # Mis proyectos
+├── contact.html         # Formulario o info de contacto
+│
+├── css/
+│   └── styles.css       # Tu hoja de estilos
+│
+├── js/
+│   └── script.js        # Funciones JS (como animaciones, formularios)
+│
+└── assets/
+    ├── images/          # Logos, fotos tuyas, capturas de proyectos
+    └── icons/           # Íconos opcionales

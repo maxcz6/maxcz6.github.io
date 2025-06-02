@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Jhuñor Paucar Ramos | Programador Junior & Diseñador con IA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Barra de navegación mejorada -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <i class="fas fa-robot"></i>
+                Max.AI
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Acerca</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Efecto de partículas -->
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+        <header id="home">
+            <div class="header-content">
+                <div class="profile-img">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+                <h1>Max Jhuñor Paucar Ramos</h1>
+                <div class="subtitle">Programador Junior & <span class="highlight">Diseñador enfocado en Inteligencia Artificial</span></div>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Ver Proyectos
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Contactar
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id="about">
+            <div class="section-title">
+                <h2>Acerca de Mí</h2>
+            </div>
+            <div class="about">
+                <div class="card">
+                    <p>¡Hola! Soy Max, un apasionado programador y diseñador especializado en Inteligencia Artificial con formación en Ciencias de la Computación. Mi objetivo es crear soluciones innovadoras que fusionen diseño estético con funcionalidad inteligente.</p>
+                    <p>Con un enfoque en el desarrollo front-end y algoritmos de aprendizaje automático, busco constantemente nuevos desafíos que me permitan crecer profesionalmente. Creo en la tecnología como herramienta para mejorar la experiencia humana y resolver problemas complejos.</p>
+                    <p>Cuando no estoy codificando, disfruto explorar nuevas técnicas de diseño UI/UX, contribuir a proyectos de código abierto y mantenerme actualizado con las últimas tendencias en IA.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="section-title">
+                <h2>Mis Habilidades</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-figma"></i>
+                    <h3>Figma</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-title">
+                <h2>Proyectos Destacados</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="card project-card">
+                    <div class="project-img">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>NeuroChat Assistant</h3>
+                        <p>Asistente virtual con IA que aprende de las conversaciones para personalizar respuestas. Desarrollado con Python y TensorFlow, implementa algoritmos de NLP para comprensión contextual.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card project-card">
+                    <div class="project-img">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>SmartStock Predictor</h3>
+                        <p>Sistema de predicción de tendencias bursátiles usando redes neuronales recurrentes. Analiza patrones históricos y noticias financieras en tiempo real para generar pronósticos.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">LSTM</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card project-card">
+                    <div class="project-img">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>ArtVision AI</h3>
+                        <p>Plataforma web que transforma fotografías en obras de arte mediante algoritmos de transferencia de estilo. Interfaz intuitiva desarrollada con React.js y backend en Flask.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">GANs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="section-title">
+                <h2>Contacto</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="card contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>max.junior.ai@protonmail.com</p>
+                </div>
+                <div class="card contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/maxjunior-dev" target="_blank">github.com/maxjunior-dev</a></p>
+                </div>
+                <div class="card contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://linkedin.com/in/maxjpaucar" target="_blank">linkedin.com/in/maxjpaucar</a></p>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/maxjunior-dev" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/maxjpaucar" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/maxjunior_ai" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://medium.com/@maxjunior-ai" target="_blank"><i class="fab fa-medium-m"></i></a>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Max Jhuñor Paucar Ramos. Todos los derechos reservados.</p>
+                <p>Diseñado y desarrollado con ❤️ y algoritmos de IA</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
